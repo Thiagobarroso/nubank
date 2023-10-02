@@ -1,0 +1,102 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+main {
+    max-height: 100%;
+}
+
+.img-login img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+
+
+section {
+    max-width: 100%;
+
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    max-width: 100%;
+    
+}
+
+.forms {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.forms-itens {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+
+.forms h2 {
+    font-size: 26px;
+ }
+
+label {
+    font-weight: 500;
+    color: #353131;
+    font-size: 14px;
+}
+
+.senha {
+    margin-top: 40px;
+}
+
+input {
+    border: none;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #E8F0FE;
+    height: 50px;
+    border-bottom: 2px solid #efefef;
+}
+
+.btn {
+    margin-top: 60px;
+}
+
+.btn a{
+    padding: 20px 100px;
+    color: #FFFFFF;
+}
+
+
+
+.footer {
+    color: #820AD1;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #efefef   ;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul {
+    max-width: 100%;
+    display: flex;
+    gap: 130px;
+}
+
+.footer ul li:hover {
+        cursor: pointer;
+        color: #9254bb;
+
+}
